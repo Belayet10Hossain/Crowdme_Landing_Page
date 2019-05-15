@@ -1,0 +1,372 @@
+/* Google Fonts Lato */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+/* Global CSS */
+*{
+	margin: 0;
+	padding-right: 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+/* Header Section Start */
+header{
+	padding: 21px 0px 64px 0px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.header-left{
+	width: 50%;
+	float: left;
+}
+.header-right{
+	width: 50%;
+	float: left;
+	text-align: left;
+	padding-top: 13px;
+}
+.header-right ul li{
+	list-style-type: none;
+	display: inline;
+	font-size: 13.2px;
+	margin-right: 7px;
+	color: #a2a2a2;
+}
+
+/* Banner Section Start */
+
+.banner{
+	background: url(../img/back.png) no-repeat center;
+	background-size: cover;
+	height: 572px;
+}
+.container h1{
+	text-align: center;
+	color: white;
+	padding-top: 170px;
+	font-weight: 400;
+	font-size: 40px;
+}
+.container h3{
+	text-align: center;
+	color: white;
+	padding-top: 30px;
+	font-weight: 400;
+	font-size: 30px;
+}
+.btn-banner{
+	display: block;
+    margin: 60px auto;
+    border: 1px solid #99c50a;
+    padding: 21px 37px;
+	background: #99c50a;
+	color: white;
+	font-size: 19.2px;
+	border-radius: 10px;
+	transition: 0.4s ease-in-out;
+}
+.btn-banner:hover{
+	cursor: pointer;
+	border: 1px solid #26a6d1;
+	background-color: #26a6d1;
+}
+
+/* About Section Start */
+
+.about img{
+	display: block;
+	margin: 0 auto;
+	padding: 100px 0px 54px 0px;
+}
+.about h2{
+	text-align: center;
+	padding-bottom: 17px;
+	font-size: 31.2px;
+	color: #515151;
+	font-weight: 400;
+}
+.about p{
+	text-align: center;
+}
+.about .bottom{
+	padding-bottom: 188px;
+}
+
+/* Project Section Start */
+
+.wrapper{
+	display: flex;
+}
+.project-left{
+	background-color: #e2f8ff;
+	width: 50%;
+}
+.project-left .left-div{
+	width: 50%;
+	float: left;
+	font-size: 10px;
+	text-align: center;
+	padding: 85px 0px 110px 0px;
+}
+.project-left h2 p .btn-banner{
+	width: 50%;
+	float: left;
+}
+.project-left h2{
+	text-align: left;
+	padding: 47px 0px 38px 16px;
+	font-size: 23.2px;
+	color: #515151;
+}
+.project-left p{
+	text-align: left;
+	padding-bottom: 32px;
+	font-size: 17.2px;
+	color: #515151;
+	line-height: 1.5;
+}
+.project-left .btn-project{
+	display: block;
+    border: 1px solid #26a6d1;
+    padding: 14px 18px;
+	background: #26a6d1;
+	color: white;
+	font-size: 19.2px;
+	border-radius: 10px;
+	float: left;
+	transition: 0.4s ease-in-out;
+}
+.project-left .btn-project:hover{
+	cursor: pointer;
+	border: 1px solid #99c50a;
+	background-color: #99c50a;
+}
+.project-right{
+	background-color: #f5f9eb;
+	width: 50%;
+}
+.project-right .right-div{
+	width: 40%;
+	float: left;
+	font-size: 10px;
+	text-align: center;
+	padding: 85px 0px 110px 0px;
+}
+.project-right h2 p .btn-project{
+	width: 60%;
+	float: left;
+}
+.project-right h2{
+	text-align: left;
+	padding: 47px 0px 38px 16px;
+	font-size: 23.2px;
+	color: #515151;
+}
+.project-right p{
+	text-align: left;
+	padding-bottom: 32px;
+	font-size: 17.2px;
+	color: #515151;
+	line-height: 1.5;
+}
+.project-right .btn-project{
+	display: block;
+    border: 1px solid #99c50a;
+    padding: 14px 18px;
+	background: #99c50a;
+	color: white;
+	font-size: 19.2px;
+	border-radius: 10px;
+	float: left;
+	transition: 0.4s ease-in-out;
+}
+.project-right .btn-project:hover{
+	cursor: pointer;
+	border: 1px solid #26a6d1;
+	background-color: #26a6d1;
+}
+
+/* Features Section Start */
+
+.features h2{
+	padding: 84px 0px 32px 52px;
+	color: #515151;
+	font-size: 29.2px; 
+}
+.features p{
+	width: 50%;
+	float: left;
+	color: #515151;
+	line-height: 1.5;
+	padding: 0px 0px 0px 52px;
+}
+.features .b-right{
+	width: 50%;
+	float: right;
+	text-align: right;
+	margin:0px 30px 70px 0px;
+}
+.btn-p{
+    border: 1px solid #515151;
+    padding: 10px 6px;
+	background: transparent;
+	color: white;
+	font-size: 14.86px;
+	border-radius: 10px;
+	color: #515151;
+	transition: 0.4s ease-in-out;
+}
+.btn-p:hover{
+	cursor: pointer;
+	background-color: #99c50a;
+	border: 1px solid #99c50a;
+	color: white;
+}
+.wrap{
+	display: flex;
+	float: left;
+}
+	
+.box{
+	margin-left: 53px;
+}
+.box .box-1{
+	background-color: #f9f9f9;
+}
+.box .box-img{
+	width: 100%;
+}
+.box-define{
+	padding-bottom: 20px;
+}
+.box-define p{
+	display: inline;
+}
+.box-define .last-p{
+	padding-left: 150px;
+}
+.border{
+	border: 0.5px solid #515151;
+	width: 80%;
+	margin: 0 auto;
+}
+.box .box-1 h2{
+	text-align: center;
+	padding: 30px 0px 20px 0px;
+	color: #484848;
+	font-size: 17.2px;
+}
+.box .box-1 .link p{
+	display: inline;
+	margin-left: 90px;
+}
+.box .box-1 .link {
+	padding: 20px;
+	text-align: right;
+}
+.box .box-1 p{
+	text-align: center;
+	padding-bottom: 82px;
+	line-height: 1.5;
+	color: #515151;
+}
+/* Footer Section Start */
+.footer img{
+	width: 100%;
+	padding: 106px 0px 71px 0px;
+}
+.footer-1 p{
+	text-align: center;
+	padding-bottom: 22px;
+	font-size: 13.2px;
+	color: #515151;
+}
+
+
+/* Media Query For Mobile */
+@media (min-width: 320px) and (max-width: 500px){
+
+	.container{
+		width: 100%;
+	}
+	header {
+   		padding: 14px 0px 17px 0px;
+	}
+	.header-left img{
+		    width: 154px;
+    	height: 27px;
+    	padding: 13px 0px 12px 5px;
+	}
+	.header-left{
+		padding-left: 5px;
+	}
+	.header-right {
+	    width: 0%;
+	    text-align: center;
+	    display: inline;
+	    padding-top: 0px;
+	    float: initial;
+	}
+	.banner{
+		height: 390px;
+	}
+	.container h1{
+		font-size: 26px;
+		padding-top: 89px;
+	}
+	.container h3 {
+    padding-top: 18px;
+    font-size: 18px;
+	}
+	.btn-banner{
+	    margin: 52px auto;
+	    padding: 10px 5px;
+	}
+	.about img {
+    	padding: 26px 0px 26px 0px;
+	}
+	.about h2 {
+    	padding-bottom: 10px;
+	}
+	.about .bottom {
+    	padding-bottom: 40px;
+	}
+	.wrapper {
+    	flex-direction: column;
+	}
+	.project-left {
+    	width: 100%;
+	}
+	.project-right {
+    	width: 100%;
+	}
+	.features h2 {
+    	padding: 36px 0px 0px 52px;
+	}
+	.features .b-right {
+    	margin: 31px 89px 37px 0px;
+	}
+	.wrap {
+	    flex-direction: column;
+	    margin: 0 auto;
+	}
+	.box {
+    	margin: 20px 0px 30px 1px;
+	}
+	.footer img {
+    	width: 100%;
+    	padding: 18px 0px 37px 0px;
+	}
+}
+
+
+/* Media Query For Tablet */
+@media (min-width: 501px) and (max-width: 768px){
+
+	
+
+}
